@@ -4,7 +4,7 @@ A Python command-line utility that extracts any public Spotify playlist, downloa
 
 Engineered specifically for:
 - **Apple iPod nano (7th Generation, 2015)**: Full iTunes / Apple Music sync compatibility without UI freeze, missing art, or garbled character encoding.
-- **Google Pixel 10 Pro & modern Androids**: Zero-friction playback in VLC, Poweramp, Musicolet, Symfonium, etc.
+- **Modern Androids**: Zero-friction playback in VLC, Poweramp, Musicolet, Symfonium, etc.
 - **iOS / modern Apple devices**: AirDrop, Finder sync, and Apple Music library integration.
 
 ---
@@ -76,14 +76,14 @@ python spotify_to_ipod.py "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID"
 
 You will be asked whether you want to format for:
 - **[1] Apple iPod** (nano 7th Gen / Classic / Mini) - Strict ID3v2.3, 500x500 art, 44.1kHz CBR MP3
-- **[2] Modern Flagship Phone** (Google Pixel 10 Pro / iPhone) - Max Hi-Fi 320kbps 48kHz, ID3v2.4, Full-Res art
+- **[2] Modern Flagship Phone** (Android / iPhone) - Max Hi-Fi 320kbps 48kHz, ID3v2.4, Full-Res art
 
 Or specify it directly in the command:
 ```bash
 # Apple iPod nano 7th Gen
 python spotify_to_ipod.py "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID" --target ipod
 
-# Google Pixel 10 Pro / Modern Smartphone
+# Modern Smartphone
 python spotify_to_ipod.py "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID" --target modern
 ```
 
