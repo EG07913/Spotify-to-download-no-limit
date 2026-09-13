@@ -1,0 +1,6 @@
+{
+  "name": "Spotify to iPod & Android MP3 Generator",
+  "description": "Python CLI tool and guide for converting Spotify playlists to 320kbps MP3s tailored for iPod nano 7th Gen, Google Pixel 10 Pro, and modern smartphones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
